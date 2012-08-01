@@ -1,0 +1,35 @@
+GIT
+  remote: git://github.com/kristianmandrup/ripper2ruby.git
+  revision: 13e30f889377182bff1a4b7a7193068054623863
+  specs:
+    ripper2ruby (0.0.2)
+
+GIT
+  remote: git://github.com/ngty/sourcify.git
+  revision: c0650ed22c9c3104190d7e6f187bbd56b322df5c
+  specs:
+    sourcify (0.6.0.rc1)
+      file-tail (~> 1.0.10)
+      ruby2ruby (~> 1.3.1)
+      ruby_parser (~> 2.3.1)
+      sexp_processor (~> 3.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    file-tail (1.0.10)
+      tins (~> 0.4.3)
+    ruby2ruby (1.3.1)
+      ruby_parser (~> 2.0)
+      sexp_processor (~> 3.0)
+    ruby_parser (2.3.1)
+      sexp_processor (~> 3.0)
+    sexp_processor (3.2.0)
+    tins (0.4.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ripper2ruby!
+  sourcify!
